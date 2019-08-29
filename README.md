@@ -22,3 +22,7 @@ Refer to this link to create correlation filter - [Create ServiceBus Rule for Su
 * Prints out enqueued time in UTC as well as current time
 * Observation - Message order is mostly maintained but not guaranteed to be in order.
 * Observation - Latency was observed to be around 150-200ms for this test case between Enqueued time and time message was read in the Azure function
+
+## Next Steps:
+* Deploying functions to Azure and adding Application Insights for better latency observations - we may be able to observe the EnqueuedTime in milliseconds for the Function 1 and 2 as well here
+* Creating script to automate creation subscriptions and adding rules to it
