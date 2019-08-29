@@ -21,3 +21,4 @@ Refer to this link to create correlation filter - [Create ServiceBus Rule for Su
 * Processes messages individually from subscription Car2
 * Prints out enqueued time in UTC as well as current time
 * Observation - Message order is mostly maintained but not guaranteed to be in order.
+* Observation - Latency was observed to be around 150-200ms for this test case between Enqueued time and time message was read in the Azure function
