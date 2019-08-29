@@ -12,7 +12,6 @@ Refer to this link to create correlation filter - [Create ServiceBus Rule for Su
 
 ### Function 1 - Car0 :
 * Processes messages in batches from subscription Car0
-* Could not print the Enqueued time since that property is not available in the beta release nuget package - raised feedback here - https://github.com/Azure/azure-functions-servicebus-extension/issues/15#issuecomment-526010126
 * Observation - Order is not maintained
 
 ### Function 2 - Car1 : (same as above for subscription Car1)
